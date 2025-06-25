@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Campaigns</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <div class="campaigns">
+       <div class="leftC">
+           <h2>
+                Campaigns
+            </h2>
+       </div>
+       <div class="rightC">
+           <button class="cf">Create folder</button>
+           <button class="cc" id="openModalBtn">Create campaign</button>
+
+           <!-- Modal -->
+            <div id="modal" class="modal">
+            <div class="modal-content">
+                <!-- <span id="closeModalBtn" class="close">&times;</span> -->
+                <div>
+                <div class="heading">
+                    <h1 class="campa">Create a Campaign</h1>
+                    <span class="cross" id="cross">&#10005;</span>
+                </div>
+                <hr class="hr">
+            </div>
+            <div class="larger" >
+                <h2 class="standard">Standard</h2>
+                <p class="standard grey ">Create a one-off campaign from scratch.</p>
+                <div class="imgcards">
+                    <div class="cards">
+                        <div class="image-ctr" id="email">
+                            <img src="assets/email.webp" alt="">
+                        </div>
+                        <p>Email</p>
+                    </div>
+                    <div class="cards">
+                        <div class="image-ctr" id="sms">
+                            <img src="assets/sms.webp" alt="">
+                        </div>
+                        <p>SMS</p>
+                    </div>
+                    <div class="cards">
+                        <div class="image-ctr" id="whatsApp">
+                            <img src="assets/whatsApp.webp" alt="">
+                        </div>
+                        <p>WhatsApp</p>
+                    </div>
+                    <div class="cards">
+                        <div class="image-ctr" id="webPush">
+                            <img src="assets/webPush.webp" alt="">
+                        </div>
+                        <p>Web Push</p>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="Auto">
+                    <div class="alignLeft">
+                        <h2>Automated</h2>
+                        <p class="grey">Use a pre-built automated sequence of messages, or create one yourself.</p>
+                    </div>
+                    <p class="createAuto">Create a custom automation</p>
+                </div>
+            </div>
+            <div class="automated-cards">
+                <div class="auto-card">
+                    <h3>Abandoned Cart</h3>
+                    <p>Send a message after a contact abandons a cart.</p>
+                </div>
+                <div class="auto-card">
+                    <h3>Product Purchase</h3>
+                    <p>Send a message when a product is purchased on your website.</p>
+                </div>
+                <div class="auto-card">
+                    <h3>Welcome Message</h3>
+                    <p>Send a welcome message after a subscriber joins your list.</p>
+                </div>
+                <div class="auto-card">
+                    <h3>Marketing Activity</h3>
+                    <p>Send messages based on whether contacts open or click on an email campaign</p>
+                </div>
+                <div class="auto-card">
+                    <h3>Anniversary Date</h3>
+                    <p>Send a series of messages based on a special event or birthday.</p>
+                </div>
+                <div class="auto-card">
+                    <h3>Page Visit</h3>
+                    <p>Send a message after a contact visits a specific page on your website.</p>
+                </div>
+                <div class="auto-card">
+                    <h3>Website Event</h3>
+                    <p>Send a message after a contact performs a specific action on your website.</p>
+                </div>
+                <div class="auto-card">
+                    <h3>Transactional Activity</h3>
+                    <p>Send a message based on whether contacts open or click on Transactional emails.</p>
+                </div>
+            </div>
+            </div>
+            </div>
+       </div>
+
+   </div>
+   <div class="email">
+      <h3>
+        Email
+      </h3>
+      <hr>
+   </div>
+   
+    <script src="script.js"></script>
+</body>
+</html>
