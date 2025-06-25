@@ -83,6 +83,10 @@
     font-weight: 700;
 }
 
+.auto-card p{
+    text-align: left;
+}
+
 .benefitSection * {
     padding: 5px;
 }
@@ -231,7 +235,6 @@
     border-radius: var(--modal-radius);
     padding: var(--modal-padding);
     position: relative;
-    text-align: center;
     width: 80%;
     max-width: var(--max-modal-width);
     box-sizing: border-box;
